@@ -1,0 +1,85 @@
+body{
+    background-color: green;
+}
+h1{
+    /*betűszín*/
+    color:white
+}
+p{
+    color: black;
+}
+#ananasz{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+#elso{
+    background-image:url(vegyes\ feladatok/smiley2.png) ;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+table{
+    background-color: white;
+    clear:both
+}
+table,td{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+ol>li{
+    list-style-type: none;
+
+}
+ul>li{
+    list-style-image: url(vegyes\ feladatok/smiley2.png);
+    list-style-position: inside;
+}
+/*hivatkozások alapjai*/
+a:active{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+/*ha ráhúzod az egeret*/
+a:hover{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+#szoveg{
+    text-indent: 50px;
+    text-align: justify;
+}
+div{
+    border: 1px grey solid;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+div>h1{
+    color: black;
+   
+}
+h1::first-letter{
+    text-transform: uppercase;
+}
+h2{
+    text-decoration: underline;
+}
+.vastag{
+    font-weight: bold;
+}
+h4{
+    font-style: italic;
+    font-style: 
+}
+#parizs{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+
+}
